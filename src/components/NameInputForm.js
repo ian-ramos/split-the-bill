@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { addPerson } from '../redux/actions'
 
-export class NameInputForm extends React.Component {
+class NameInputForm extends React.Component {
 
   state = {
     firstName: '',
