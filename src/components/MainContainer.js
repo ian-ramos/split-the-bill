@@ -14,7 +14,11 @@ export default class MainContainer extends React.Component {
           </div>
         </Grid.Row>
         <Grid.Row columns={2} centered>
-          <FoodTable />
+          <Grid.Column>
+            <div className="food-table segment">
+              <FoodTable />
+            </div>
+          </Grid.Column>
         </Grid.Row>
       </Grid>
     )
